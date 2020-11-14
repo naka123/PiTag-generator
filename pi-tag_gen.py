@@ -8,6 +8,10 @@ TODO :
 - Print guiding lines to indicate the crossratios
 
 """
+
+import os
+os.environ["PATH"] += r";c:\opt\rosdeps\x64\bin"
+
 import svgwrite
 import os
 from svgwrite import cm, mm
